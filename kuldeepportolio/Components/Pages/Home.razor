@@ -1,0 +1,335 @@
+﻿@page "/"
+
+<section class="hero">
+    <div class="container">
+        <h1>Learn the Flute with <span class="accent">Kuldeep Mishra</span></h1>
+        <p class="subtitle">Professional flute teacher • Personalized lessons • Beginner to advanced</p>
+        <a class="cta" href="https://www.linkedin.com/in/kuldeepmishra08/" target="_blank">Book a Free Lesson</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container grid">
+        <div>
+            <h2>About Me</h2>
+            <p>
+                I am a classically trained flautist with <strong>10+ years</strong> of teaching experience. I help
+                students build a strong foundation in tone, technique, sight-reading, and musical expression.
+                My approach blends classical repertoire with modern pieces to keep lessons engaging and goal-driven.
+            </p>
+            <ul class="ticks">
+                <li>Beginner, Intermediate, and Advanced learners welcome</li>
+                <li>One-to-one and small group classes</li>
+                <li>Online and in-person sessions (by appointment)</li>
+            </ul>
+        </div>
+        <div class="about-card">
+            <h3>Quick Facts</h3>
+            <ul>
+                <li>Education: B.Mus in Performance</li>
+                <li>Specialization: Tone, articulation, and breath control</li>
+                <li>Languages: English, Hindi ,odia</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="courses" class="section alt">
+    <div class="container">
+        <h2>Courses</h2>
+        <div class="courses">
+            <article class="course">
+                <h3>Beginner Foundations</h3>
+                <p class="summary">Embouchure, posture, breathing, and first melodies.</p>
+                <ul>
+                    <li>Hold the flute comfortably and produce a clear tone</li>
+                    <li>Learn basic notation and rhythms</li>
+                    <li>Play simple songs with proper breath control</li>
+                    <li>Practice routine and progress tracking</li>
+                </ul>
+                <div class="meta">
+                    <span><strong>Duration:</strong> 8 weeks (1×60 min/week)</span>
+                    <span><strong>Format:</strong> Online or In-person</span>
+                    <span><strong>Fee:</strong> ₹6,000 per month</span>
+                </div>
+            </article>
+
+            <article class="course">
+                <h3>Intermediate Technique</h3>
+                <p class="summary">Tone color, articulation, scales, and sight-reading.</p>
+                <ul>
+                    <li>Major/minor scales & arpeggios up to 2 sharps/flats</li>
+                    <li>Legato vs. staccato, tonguing patterns</li>
+                    <li>Dynamics and phrasing for musical expression</li>
+                    <li>Duets and ensemble awareness</li>
+                </ul>
+                <div class="meta">
+                    <span><strong>Duration:</strong> 12 weeks (1×60 min/week)</span>
+                    <span><strong>Format:</strong> Online or In-person</span>
+                    <span><strong>Fee:</strong> ₹7,500 per month</span>
+                </div>
+            </article>
+
+            <article class="course">
+                <h3>Advanced Performance</h3>
+                <p class="summary">Repertoire, interpretation, auditions, and stage craft.</p>
+                <ul>
+                    <li>Advanced etudes and concert pieces</li>
+                    <li>Vibrato development and intonation refinement</li>
+                    <li>Recital preparation and mock performances</li>
+                    <li>ABRSM/Trinity exam coaching</li>
+                </ul>
+                <div class="meta">
+                    <span><strong>Duration:</strong> 12+ weeks (customized)</span>
+                    <span><strong>Format:</strong> Online or In-person</span>
+                    <span><strong>Fee:</strong> ₹9,000 per month</span>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="section">
+    <div class="container">
+        <h2>Student Testimony</h2>
+        <figure class="testimonial">
+            <blockquote>
+                “I started as a complete beginner, and within three months I could play my favorite melodies with
+                confidence. The focus on breathing and tone made a huge difference!”
+            </blockquote>
+            <figcaption>
+                — <strong>Riya S.</strong>, high-school student (Beginner Course)
+            </figcaption>
+        </figure>
+    </div>
+</section>
+
+<section id="contact" class="section alt">
+    <div class="container grid">
+        <div>
+            <h2>Contact Information</h2>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> youremail@example.com</li>
+                <li><strong>Phone:</strong> +91-90000-00000</li>
+                <li><strong>WhatsApp:</strong> +91-90000-00000</li>
+                <li><strong>Instagram:</strong> <a href="https://instagram.com/vzades" target="_blank">vzades</a></li>
+                <li><strong>Lesson Hours:</strong> Mon–Sat, 10:00–19:00 IST</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kuldeepmishra08/" target="_blank">kuldeepmishra08</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© @DateTime.Now.Year Your Name • Flute Teacher</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#testimonials">Testimony</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</footer>
+
+<style>
+    :root {
+        --bg: #0b0c10;
+        --card: #111318;
+        --text: #e6e6e6;
+        --muted: #b8c1cc;
+        --accent: #7dd3fc;
+        --accent-2: #a78bfa;
+        --ok: #10b981;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .section {
+        padding: 4rem 0;
+        color: var(--text);
+        background: var(--bg);
+    }
+
+        .section.alt {
+            background: linear-gradient(180deg, #0b0c10 0%, #0e1016 100%);
+        }
+
+    h1, h2, h3 {
+        margin: 0 0 1rem;
+        color: #fff;
+    }
+
+    p {
+        color: var(--muted);
+        line-height: 1.7;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration: none;
+    }
+
+    .accent {
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .hero {
+        padding: 6rem 0 4rem;
+        background: radial-gradient(1200px 500px at 70% -20%, rgba(125,211,252,0.12), transparent), radial-gradient(1000px 500px at 20% -10%, rgba(167,139,250,0.1), transparent), var(--bg);
+        color: var(--text);
+        text-align: center;
+    }
+
+        .hero .subtitle {
+            margin: 0.5rem 0 1.5rem;
+        }
+
+    .cta {
+        display: inline-block;
+        padding: 0.85rem 1.25rem;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        color: #081018;
+        font-weight: 700;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        gap: 2rem;
+        align-items: start;
+    }
+
+    @@media (max-width: 900px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .ticks {
+        list-style: none;
+        padding: 0;
+        margin: 1rem 0 0;
+    }
+
+        .ticks li {
+            position: relative;
+            padding-left: 1.6rem;
+            margin: 0.4rem 0;
+        }
+
+            .ticks li::before {
+                content: "✓";
+                position: absolute;
+                left: 0;
+                color: var(--ok);
+            }
+
+    .about-card {
+        background: var(--card);
+        border: 1px solid #1a1f2a;
+        padding: 1.25rem;
+        border-radius: 1rem;
+        color: var(--text);
+    }
+
+        .about-card ul {
+            margin: 0.5rem 0 0;
+            padding-left: 1rem;
+        }
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.25rem;
+    }
+
+    @@media (max-width: 1000px) {
+        .courses {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @@media (max-width: 640px) {
+        .courses {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .course {
+        background: var(--card);
+        border: 1px solid #1a1f2a;
+        padding: 1.25rem;
+        border-radius: 1rem;
+    }
+
+        .course .summary {
+            color: var(--muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .course .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 0.75rem;
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+
+    .testimonial {
+        background: var(--card);
+        border: 1px solid #1a1f2a;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+        .testimonial blockquote {
+            margin: 0 0 0.75rem;
+            font-size: 1.1rem;
+            color: #fff;
+        }
+
+    .contact-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .contact-list li {
+            margin: 0.5rem 0;
+            color: var(--muted);
+        }
+
+        .contact-list a {
+            color: var(--accent);
+        }
+
+    .footer {
+        padding: 2rem 0;
+        background: #0a0c12;
+        color: var(--muted);
+    }
+
+        .footer nav {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 0.5rem;
+        }
+</style>
